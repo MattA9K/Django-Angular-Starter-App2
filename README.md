@@ -8,7 +8,17 @@ Because AngularJS and Django use the same `{{ var }}` template tags, Django must
 this conflict.
 
 
+`
+<html lang="en" ng-app="StarterApp">
+{% verbatim %}
+<head>
+    <meta name="viewport" content="initial-scale=1"/>
+</head>
 
-
+<body ng-controller="AppCtrl">
+</body>
+{% endverbatim %}
+</html>
+`
 
 ![alt tag](https://github.com/MattAndrzejczuk/Django-Angular-Starter-App2/blob/master/static/djang.png?raw=true "Get Started With Django-REST And Angular Material Design Quickly!")
